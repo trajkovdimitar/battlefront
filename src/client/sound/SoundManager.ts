@@ -1,7 +1,4 @@
 import { Howl } from "howler";
-import of4 from "../../../proprietary/sounds/music/of4.mp3";
-import openfront from "../../../proprietary/sounds/music/openfront.mp3";
-import war from "../../../proprietary/sounds/music/war.mp3";
 import kaChingSound from "/sounds/effects/ka-ching.mp3?url";
 
 export enum SoundEffect {
@@ -16,26 +13,10 @@ class SoundManager {
   private backgroundMusicVolume: number = 0;
 
   constructor() {
-    this.backgroundMusic = [
-      new Howl({
-        src: [of4],
-        loop: false,
-        onend: this.playNext.bind(this),
-        volume: 0,
-      }),
-      new Howl({
-        src: [openfront],
-        loop: false,
-        onend: this.playNext.bind(this),
-        volume: 0,
-      }),
-      new Howl({
-        src: [war],
-        loop: false,
-        onend: this.playNext.bind(this),
-        volume: 0,
-      }),
-    ];
+    // TODO: Add your own background music files here
+    // The proprietary music files from OpenFront have been removed
+    // You can add royalty-free music files in their place
+    this.backgroundMusic = [];
     this.loadSoundEffect(SoundEffect.KaChing, kaChingSound);
   }
 

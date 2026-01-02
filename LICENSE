@@ -660,19 +660,27 @@ if any, to sign a "copyright disclaimer" for the program, if necessary.
 For more information on this, and how to apply and follow the GNU AGPL, see
 <https://www.gnu.org/licenses/>.
 
+=== BATTLEFRONT FORK INFORMATION ===
+
+BattleFront.io is a modified version (fork) of OpenFront.io.
+Copyright (C) 2026 Dimitar Trajkov and Contributors
+
+This is a fork of OpenFront.io and is not affiliated with or
+endorsed by the OpenFront project.
+
 === ADDITIONAL TERMS (AGPL v3 Section 7) ===
 
 Copyright Preservation Requirement (Section 7(b)):
 
-OpenFront displays copyright notices in the footer and on the 
-loading screen. Modified versions must preserve the copyright 
-notice "© OpenFront and Contributors" in reasonably 
-visible locations such as the footer, loading screen, splash screen,
-or main menu.
+This software is based on OpenFront, which displays copyright notices
+in the footer and loading screen. In compliance with the AGPL v3
+Section 7(b), this modified version preserves the copyright notice
+"Based on OpenFront © OpenFront and Contributors" in reasonably
+visible locations such as the footer, loading screen, or about page.
 
 Prohibition of Misrepresentation (Section 7(c)):
 
-Modified versions may not misrepresent their origin or 
-relationship to the OpenFront project. Modified versions must 
-not use "OpenFront" as their primary title or imply official 
+Modified versions may not misrepresent their origin or
+relationship to the OpenFront project. Modified versions must
+not use "OpenFront" as their primary title or imply official
 endorsement without permission.

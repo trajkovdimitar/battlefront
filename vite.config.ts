@@ -3,7 +3,7 @@ import path from "path";
 import { fileURLToPath } from "url";
 import { defineConfig, loadEnv } from "vite";
 import { createHtmlPlugin } from "vite-plugin-html";
-import { viteStaticCopy } from "vite-plugin-static-copy";
+// import { viteStaticCopy } from "vite-plugin-static-copy";
 import tsconfigPaths from "vite-tsconfig-paths";
 
 // Vite already handles these, but its good practice to define them explicitly
@@ -59,14 +59,15 @@ export default defineConfig(({ mode }) => {
           },
         },
       }),
-      viteStaticCopy({
-        targets: [
-          {
-            src: "proprietary/*",
-            dest: ".",
-          },
-        ],
-      }),
+      // Proprietary assets removed - add your own music/assets here if needed
+      // viteStaticCopy({
+      //   targets: [
+      //     {
+      //       src: "your-assets/*",
+      //       dest: ".",
+      //     },
+      //   ],
+      // }),
     ],
 
     define: {

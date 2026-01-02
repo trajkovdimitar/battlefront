@@ -132,7 +132,10 @@ export class GameStartingModal extends LitElement {
     return html`
       <div class="overlay ${this.isVisible ? "visible" : ""}"></div>
       <div class="modal ${this.isVisible ? "visible" : ""}">
-        <div class="copyright">© OpenFront and Contributors</div>
+        <div class="copyright">BattleFront.io © 2026 Dimitar Trajkov</div>
+        <div class="copyright" style="font-size: 14px; margin-top: 5px;">
+          Based on OpenFront © OpenFront and Contributors
+        </div>
         <a
           href="https://github.com/openfrontio/OpenFrontIO/blob/main/CREDITS.md"
           target="_blank"
